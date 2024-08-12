@@ -126,11 +126,8 @@ public class SewerLevel extends RegularLevel {
 	@Override
 	protected float[] trapChances() {
 		return Dungeon.depth == 1 ?
-				new float[]{1} :
-				new float[]{
-						4, 4, 4, 4,
-						2, 2,
-						1, 1, 1, 1, 1};
+				new float[]{16} :
+				new float[]{16};
 	}
 
 	@Override
